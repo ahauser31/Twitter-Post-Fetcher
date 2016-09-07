@@ -1,4 +1,4 @@
-Twitter-Post-Fetcher
+Twitter-Post-Fetcher - modified
 ====================
 
 Allows you to get your tweets displaying on your website using JavaScript, without using new Twitter 1.1 API 
@@ -6,6 +6,11 @@ Allows you to get your tweets displaying on your website using JavaScript, witho
 Further information and project page: http://jasonmayes.com/projects/twitterApi/
 
 Latest version: 16.0.2 - ensure you are using the latest version to avoid issues!
+
+#### Changes to Jason Mayes' version
+
+There is only one change: When requesting "dataOnly", the "time" of the tweet is mangled in the original version - it contains the time rendered as text.  
+In this version, "time" is a proper object.
 
 ## Why does this exist?
 

@@ -284,7 +284,7 @@
           arrayTweets.push({
             tweet: tweets[n].innerHTML,
             author: authors[n].innerHTML,
-            time: times[n].textContent,
+            time: times[n], //.textContent, <- Pass the raw time here, so it can be properly formatted by the client
             image: extractImageUrl(images[n]),
             rt: rts[n],
             tid: tids[n],

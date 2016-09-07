@@ -1,13 +1,13 @@
 {
   "name": "twitter-fetcher",
-  "version": "16.0.2",
+  "version": "16.0.3",
   "keywords": ["Twitter", "OAUTH", "JavaScript", "tweets", "api", "widget"],
   "description": "Fetch your twitter posts without using the new Twitter 1.1 API. Pure JavaScript!",
   "author": "Jason Mayes",
-  "main": "js/twitterFetcher_min.js",
+  "main": "js/twitterFetcher.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonmayes/Twitter-Post-Fetcher.git"
+    "url": "https://github.com/ahauser31/Twitter-Post-Fetcher.git"
   },
   "bugs": {
     "url": "https://github.com/jasonmayes/Twitter-Post-Fetcher/issues"
